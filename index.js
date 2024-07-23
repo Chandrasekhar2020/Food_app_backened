@@ -5,7 +5,7 @@ const app=express()
 const port=5000;
 // const mongoDB=require('./db')
 // mongoDB();// didnt used this because mongoose.connect() didn't accepts the callback function (updated version)//
-mongoose.connect( "mongodb+srv://Chandra:hdFLG3KwIPkUAz0i@cluster0.titzik6.mongodb.net/food_app?retryWrites=true&w=majority").then(async()=>{console.log("DB connection Established")
+mongoose.connect( "mongodb+srv://Chandra:Chandra2020@cluster0.titzik6.mongodb.net/food_app?retryWrites=true&w=majority").then(async()=>{console.log("DB connection Established")
 const FoodItem = mongoose.model('food_Items', new mongoose.Schema({
     name: String
   }));
